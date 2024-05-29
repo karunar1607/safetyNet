@@ -1,0 +1,549 @@
+2024-05-24T14:42:01.487-04:00  INFO 28892 --- [safetynet] [main] c.o.safetynet.SafetynetApplication       : Starting SafetynetApplication using Java 17.0.10 with PID 28892 (C:\SpringInit\safetynet\safetynet\target\classes started by karun in C:\SpringInit\safetynet\safetynet)
+2024-05-24T14:42:01.488-04:00 DEBUG 28892 --- [safetynet] [main] c.o.safetynet.SafetynetApplication       : Running with Spring Boot v3.2.5, Spring v6.1.6
+2024-05-24T14:42:01.489-04:00  INFO 28892 --- [safetynet] [main] c.o.safetynet.SafetynetApplication       : No active profile set, falling back to 1 default profile: "default"
+2024-05-24T14:42:02.038-04:00  INFO 28892 --- [safetynet] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-05-24T14:42:02.048-04:00  INFO 28892 --- [safetynet] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-05-24T14:42:02.048-04:00  INFO 28892 --- [safetynet] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-05-24T14:42:02.087-04:00  INFO 28892 --- [safetynet] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-05-24T14:42:02.087-04:00  INFO 28892 --- [safetynet] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 564 ms
+2024-05-24T14:42:02.356-04:00  INFO 28892 --- [safetynet] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-05-24T14:42:02.364-04:00  INFO 28892 --- [safetynet] [main] c.o.safetynet.SafetynetApplication       : Started SafetynetApplication in 1.174 seconds (process running for 1.667)
+2024-05-24T14:42:17.675-04:00  INFO 28892 --- [safetynet] [http-nio-8080-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-05-24T14:42:17.675-04:00  INFO 28892 --- [safetynet] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-05-24T14:42:17.677-04:00  INFO 28892 --- [safetynet] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2024-05-24T14:42:17.707-04:00  INFO 28892 --- [safetynet] [http-nio-8080-exec-3] c.o.s.controller.SafetyNetController     : DELETE /person called
+2024-05-24T14:42:17.707-04:00 DEBUG 28892 --- [safetynet] [http-nio-8080-exec-3] c.o.safetynet.service.SafetyNetService   : deletePerson called  with firstname:Sanjana and Last name: karuna
+
+2024-05-24T14:42:17.708-04:00  WARN 28892 --- [safetynet] [http-nio-8080-exec-3] c.o.safetynet.service.SafetyNetService   : deletePerson is called with non existing person
+2024-05-24T15:19:01.848-04:00  INFO 28892 --- [safetynet] [RMI TCP Connection(24)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2024-05-24T15:19:03.632-04:00  INFO 28808 --- [safetynet] [main] c.o.safetynet.SafetynetApplication       : Starting SafetynetApplication using Java 17.0.10 with PID 28808 (C:\SpringInit\safetynet\safetynet\target\classes started by karun in C:\SpringInit\safetynet\safetynet)
+2024-05-24T15:19:03.633-04:00 DEBUG 28808 --- [safetynet] [main] c.o.safetynet.SafetynetApplication       : Running with Spring Boot v3.2.5, Spring v6.1.6
+2024-05-24T15:19:03.634-04:00  INFO 28808 --- [safetynet] [main] c.o.safetynet.SafetynetApplication       : No active profile set, falling back to 1 default profile: "default"
+2024-05-24T15:19:04.239-04:00  INFO 28808 --- [safetynet] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-05-24T15:19:04.248-04:00  INFO 28808 --- [safetynet] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-05-24T15:19:04.248-04:00  INFO 28808 --- [safetynet] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-05-24T15:19:04.298-04:00  INFO 28808 --- [safetynet] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-05-24T15:19:04.298-04:00  INFO 28808 --- [safetynet] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 633 ms
+2024-05-24T15:19:04.597-04:00  INFO 28808 --- [safetynet] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-05-24T15:19:04.605-04:00  INFO 28808 --- [safetynet] [main] c.o.safetynet.SafetynetApplication       : Started SafetynetApplication in 1.288 seconds (process running for 1.828)
+2024-05-24T15:24:58.257-04:00  INFO 28808 --- [safetynet] [RMI TCP Connection(15)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2024-05-24T15:24:59.829-04:00  INFO 32816 --- [safetynet] [main] c.o.safetynet.SafetynetApplication       : Starting SafetynetApplication using Java 17.0.10 with PID 32816 (C:\SpringInit\safetynet\safetynet\target\classes started by karun in C:\SpringInit\safetynet\safetynet)
+2024-05-24T15:24:59.830-04:00 DEBUG 32816 --- [safetynet] [main] c.o.safetynet.SafetynetApplication       : Running with Spring Boot v3.2.5, Spring v6.1.6
+2024-05-24T15:24:59.831-04:00  INFO 32816 --- [safetynet] [main] c.o.safetynet.SafetynetApplication       : No active profile set, falling back to 1 default profile: "default"
+2024-05-24T15:25:00.417-04:00  INFO 32816 --- [safetynet] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-05-24T15:25:00.427-04:00  INFO 32816 --- [safetynet] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-05-24T15:25:00.427-04:00  INFO 32816 --- [safetynet] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-05-24T15:25:00.465-04:00  INFO 32816 --- [safetynet] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-05-24T15:25:00.465-04:00  INFO 32816 --- [safetynet] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 601 ms
+2024-05-24T15:25:00.739-04:00  INFO 32816 --- [safetynet] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-05-24T15:25:00.746-04:00  INFO 32816 --- [safetynet] [main] c.o.safetynet.SafetynetApplication       : Started SafetynetApplication in 1.217 seconds (process running for 1.746)
+2024-05-24T15:25:12.328-04:00  INFO 32816 --- [safetynet] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-05-24T15:25:12.328-04:00  INFO 32816 --- [safetynet] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-05-24T15:25:12.330-04:00  INFO 32816 --- [safetynet] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2024-05-24T15:25:12.427-04:00  INFO 32816 --- [safetynet] [http-nio-8080-exec-1] c.o.s.controller.SafetyNetController     : POST /person called
+2024-05-24T15:25:12.428-04:00 DEBUG 32816 --- [safetynet] [http-nio-8080-exec-1] c.o.safetynet.service.SafetyNetService   : createPerson called with Person: Sanjana 
+2024-05-24T15:25:30.758-04:00  INFO 32816 --- [safetynet] [http-nio-8080-exec-4] c.o.s.controller.SafetyNetController     : POST /person called
+2024-05-24T15:25:30.759-04:00 DEBUG 32816 --- [safetynet] [http-nio-8080-exec-4] c.o.safetynet.service.SafetyNetService   : createPerson called with Person:  
+2024-05-24T15:32:46.835-04:00  INFO 32816 --- [safetynet] [RMI TCP Connection(18)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2024-05-24T15:32:48.527-04:00  INFO 19740 --- [safetynet] [main] c.o.safetynet.SafetynetApplication       : Starting SafetynetApplication using Java 17.0.10 with PID 19740 (C:\SpringInit\safetynet\safetynet\target\classes started by karun in C:\SpringInit\safetynet\safetynet)
+2024-05-24T15:32:48.530-04:00 DEBUG 19740 --- [safetynet] [main] c.o.safetynet.SafetynetApplication       : Running with Spring Boot v3.2.5, Spring v6.1.6
+2024-05-24T15:32:48.531-04:00  INFO 19740 --- [safetynet] [main] c.o.safetynet.SafetynetApplication       : No active profile set, falling back to 1 default profile: "default"
+2024-05-24T15:32:49.076-04:00  INFO 19740 --- [safetynet] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-05-24T15:32:49.087-04:00  INFO 19740 --- [safetynet] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-05-24T15:32:49.087-04:00  INFO 19740 --- [safetynet] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-05-24T15:32:49.130-04:00  INFO 19740 --- [safetynet] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-05-24T15:32:49.130-04:00  INFO 19740 --- [safetynet] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 569 ms
+2024-05-24T15:32:49.405-04:00  INFO 19740 --- [safetynet] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-05-24T15:32:49.413-04:00  INFO 19740 --- [safetynet] [main] c.o.safetynet.SafetynetApplication       : Started SafetynetApplication in 1.19 seconds (process running for 1.688)
+2024-05-24T15:32:54.520-04:00  INFO 19740 --- [safetynet] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-05-24T15:32:54.520-04:00  INFO 19740 --- [safetynet] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-05-24T15:32:54.521-04:00  INFO 19740 --- [safetynet] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-05-24T15:32:54.593-04:00  INFO 19740 --- [safetynet] [http-nio-8080-exec-1] c.o.s.controller.SafetyNetController     : POST /person called
+2024-05-24T15:32:54.593-04:00 DEBUG 19740 --- [safetynet] [http-nio-8080-exec-1] c.o.safetynet.service.SafetyNetService   : createPerson called with  with firstname: and Last name: 
+2024-05-24T15:33:43.321-04:00  INFO 19740 --- [safetynet] [RMI TCP Connection(11)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2024-05-24T15:33:44.999-04:00  INFO 26356 --- [safetynet] [main] c.o.safetynet.SafetynetApplication       : Starting SafetynetApplication using Java 17.0.10 with PID 26356 (C:\SpringInit\safetynet\safetynet\target\classes started by karun in C:\SpringInit\safetynet\safetynet)
+2024-05-24T15:33:45.001-04:00 DEBUG 26356 --- [safetynet] [main] c.o.safetynet.SafetynetApplication       : Running with Spring Boot v3.2.5, Spring v6.1.6
+2024-05-24T15:33:45.001-04:00  INFO 26356 --- [safetynet] [main] c.o.safetynet.SafetynetApplication       : No active profile set, falling back to 1 default profile: "default"
+2024-05-24T15:33:45.557-04:00  INFO 26356 --- [safetynet] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-05-24T15:33:45.567-04:00  INFO 26356 --- [safetynet] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-05-24T15:33:45.568-04:00  INFO 26356 --- [safetynet] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-05-24T15:33:45.609-04:00  INFO 26356 --- [safetynet] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-05-24T15:33:45.609-04:00  INFO 26356 --- [safetynet] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 576 ms
+2024-05-24T15:33:45.885-04:00  INFO 26356 --- [safetynet] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-05-24T15:33:45.892-04:00  INFO 26356 --- [safetynet] [main] c.o.safetynet.SafetynetApplication       : Started SafetynetApplication in 1.194 seconds (process running for 1.695)
+2024-05-24T15:33:51.262-04:00  INFO 26356 --- [safetynet] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-05-24T15:33:51.262-04:00  INFO 26356 --- [safetynet] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-05-24T15:33:51.263-04:00  INFO 26356 --- [safetynet] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-05-24T15:33:51.345-04:00  INFO 26356 --- [safetynet] [http-nio-8080-exec-1] c.o.s.controller.SafetyNetController     : POST /person called
+2024-05-24T15:33:51.345-04:00 DEBUG 26356 --- [safetynet] [http-nio-8080-exec-1] c.o.safetynet.service.SafetyNetService   : createPerson called with  with firstname: and Last name: 
+2024-05-24T15:34:01.404-04:00  INFO 26356 --- [safetynet] [http-nio-8080-exec-3] c.o.s.controller.SafetyNetController     : POST /person called
+2024-05-24T15:34:01.404-04:00 DEBUG 26356 --- [safetynet] [http-nio-8080-exec-3] c.o.safetynet.service.SafetyNetService   : createPerson called with  with firstname:null and Last name: null
+2024-05-24T15:34:01.988-04:00 ERROR 26356 --- [safetynet] [http-nio-8080-exec-3] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.NullPointerException: Cannot invoke "String.trim()" because the return value of "com.openclassrooms.safetynet.domain.Person.getFirstName()" is null] with root cause
+
+java.lang.NullPointerException: Cannot invoke "String.trim()" because the return value of "com.openclassrooms.safetynet.domain.Person.getFirstName()" is null
+	at com.openclassrooms.safetynet.service.SafetyNetService.createPerson(SafetyNetService.java:99) ~[classes/:na]
+	at com.openclassrooms.safetynet.controller.SafetyNetController.createPerson(SafetyNetController.java:94) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255) ~[spring-web-6.1.6.jar:6.1.6]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188) ~[spring-web-6.1.6.jar:6.1.6]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.1.6.jar:6.1.6]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926) ~[spring-webmvc-6.1.6.jar:6.1.6]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831) ~[spring-webmvc-6.1.6.jar:6.1.6]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.1.6.jar:6.1.6]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089) ~[spring-webmvc-6.1.6.jar:6.1.6]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.1.6.jar:6.1.6]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.1.6.jar:6.1.6]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914) ~[spring-webmvc-6.1.6.jar:6.1.6]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590) ~[tomcat-embed-core-10.1.20.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.1.6.jar:6.1.6]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.20.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:206) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.20.jar:10.1.20]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.1.6.jar:6.1.6]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.6.jar:6.1.6]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.1.6.jar:6.1.6]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.6.jar:6.1.6]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.1.6.jar:6.1.6]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.6.jar:6.1.6]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1736) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at java.base/java.lang.Thread.run(Thread.java:840) ~[na:na]
+
+2024-05-24T15:34:23.854-04:00  INFO 26356 --- [safetynet] [RMI TCP Connection(10)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2024-05-24T15:34:25.512-04:00  INFO 28020 --- [safetynet] [main] c.o.safetynet.SafetynetApplication       : Starting SafetynetApplication using Java 17.0.10 with PID 28020 (C:\SpringInit\safetynet\safetynet\target\classes started by karun in C:\SpringInit\safetynet\safetynet)
+2024-05-24T15:34:25.514-04:00 DEBUG 28020 --- [safetynet] [main] c.o.safetynet.SafetynetApplication       : Running with Spring Boot v3.2.5, Spring v6.1.6
+2024-05-24T15:34:25.515-04:00  INFO 28020 --- [safetynet] [main] c.o.safetynet.SafetynetApplication       : No active profile set, falling back to 1 default profile: "default"
+2024-05-24T15:34:26.080-04:00  INFO 28020 --- [safetynet] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-05-24T15:34:26.089-04:00  INFO 28020 --- [safetynet] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-05-24T15:34:26.089-04:00  INFO 28020 --- [safetynet] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-05-24T15:34:26.127-04:00  INFO 28020 --- [safetynet] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-05-24T15:34:26.127-04:00  INFO 28020 --- [safetynet] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 579 ms
+2024-05-24T15:34:26.396-04:00  INFO 28020 --- [safetynet] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-05-24T15:34:26.403-04:00  INFO 28020 --- [safetynet] [main] c.o.safetynet.SafetynetApplication       : Started SafetynetApplication in 1.184 seconds (process running for 1.674)
+2024-05-24T15:34:29.734-04:00  INFO 28020 --- [safetynet] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-05-24T15:34:29.734-04:00  INFO 28020 --- [safetynet] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-05-24T15:34:29.736-04:00  INFO 28020 --- [safetynet] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2024-05-24T15:34:29.815-04:00  INFO 28020 --- [safetynet] [http-nio-8080-exec-1] c.o.s.controller.SafetyNetController     : POST /person called
+2024-05-24T15:34:29.816-04:00 DEBUG 28020 --- [safetynet] [http-nio-8080-exec-1] c.o.safetynet.service.SafetyNetService   : createPerson called with  with firstname:null and Last name: null
+2024-05-24T15:34:29.817-04:00 ERROR 28020 --- [safetynet] [http-nio-8080-exec-1] c.o.safetynet.service.SafetyNetService   : createPerson is called with first name or last name as null
+2024-05-24T15:36:32.518-04:00  INFO 28020 --- [safetynet] [RMI TCP Connection(10)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2024-05-24T15:36:33.991-04:00  INFO 6484 --- [safetynet] [main] c.o.safetynet.SafetynetApplication       : Starting SafetynetApplication using Java 17.0.10 with PID 6484 (C:\SpringInit\safetynet\safetynet\target\classes started by karun in C:\SpringInit\safetynet\safetynet)
+2024-05-24T15:36:33.992-04:00 DEBUG 6484 --- [safetynet] [main] c.o.safetynet.SafetynetApplication       : Running with Spring Boot v3.2.5, Spring v6.1.6
+2024-05-24T15:36:33.992-04:00  INFO 6484 --- [safetynet] [main] c.o.safetynet.SafetynetApplication       : No active profile set, falling back to 1 default profile: "default"
+2024-05-24T15:36:34.570-04:00  INFO 6484 --- [safetynet] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-05-24T15:36:34.581-04:00  INFO 6484 --- [safetynet] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-05-24T15:36:34.582-04:00  INFO 6484 --- [safetynet] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-05-24T15:36:34.624-04:00  INFO 6484 --- [safetynet] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-05-24T15:36:34.625-04:00  INFO 6484 --- [safetynet] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 599 ms
+2024-05-24T15:36:34.923-04:00  INFO 6484 --- [safetynet] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-05-24T15:36:34.930-04:00  INFO 6484 --- [safetynet] [main] c.o.safetynet.SafetynetApplication       : Started SafetynetApplication in 1.237 seconds (process running for 1.713)
+2024-05-24T15:36:39.012-04:00  INFO 6484 --- [safetynet] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-05-24T15:36:39.012-04:00  INFO 6484 --- [safetynet] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-05-24T15:36:39.013-04:00  INFO 6484 --- [safetynet] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-05-24T15:36:39.087-04:00  INFO 6484 --- [safetynet] [http-nio-8080-exec-1] c.o.s.controller.SafetyNetController     : POST /person called
+2024-05-24T15:36:39.088-04:00 DEBUG 6484 --- [safetynet] [http-nio-8080-exec-1] c.o.safetynet.service.SafetyNetService   : createPerson called with  with firstname:null and Last name: null
+2024-05-24T15:36:39.089-04:00 ERROR 6484 --- [safetynet] [http-nio-8080-exec-1] c.o.safetynet.service.SafetyNetService   : createPerson is called with first name or last name as null
+2024-05-24T15:37:10.620-04:00  INFO 6484 --- [safetynet] [http-nio-8080-exec-4] c.o.s.controller.SafetyNetController     : POST /person called
+2024-05-24T15:37:10.620-04:00 DEBUG 6484 --- [safetynet] [http-nio-8080-exec-4] c.o.safetynet.service.SafetyNetService   : createPerson called with  with firstname:Sanjana and Last name: 
+2024-05-24T15:37:10.620-04:00 ERROR 6484 --- [safetynet] [http-nio-8080-exec-4] c.o.safetynet.service.SafetyNetService   : createPerson is called with first name or last name as emphty
+2024-05-24T15:49:58.504-04:00  INFO 6484 --- [safetynet] [RMI TCP Connection(23)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2024-05-24T15:50:03.318-04:00  INFO 6368 --- [safetynet] [main] c.o.safetynet.SafetynetApplication       : Starting SafetynetApplication using Java 17.0.10 with PID 6368 (C:\SpringInit\safetynet\safetynet\target\classes started by karun in C:\SpringInit\safetynet\safetynet)
+2024-05-24T15:50:03.320-04:00 DEBUG 6368 --- [safetynet] [main] c.o.safetynet.SafetynetApplication       : Running with Spring Boot v3.2.5, Spring v6.1.6
+2024-05-24T15:50:03.321-04:00  INFO 6368 --- [safetynet] [main] c.o.safetynet.SafetynetApplication       : No active profile set, falling back to 1 default profile: "default"
+2024-05-24T15:50:03.876-04:00  INFO 6368 --- [safetynet] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-05-24T15:50:03.885-04:00  INFO 6368 --- [safetynet] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-05-24T15:50:03.885-04:00  INFO 6368 --- [safetynet] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-05-24T15:50:03.922-04:00  INFO 6368 --- [safetynet] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-05-24T15:50:03.922-04:00  INFO 6368 --- [safetynet] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 570 ms
+2024-05-24T15:50:04.190-04:00  INFO 6368 --- [safetynet] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-05-24T15:50:04.197-04:00  INFO 6368 --- [safetynet] [main] c.o.safetynet.SafetynetApplication       : Started SafetynetApplication in 1.184 seconds (process running for 1.687)
+2024-05-24T15:50:11.453-04:00  INFO 6368 --- [safetynet] [http-nio-8080-exec-4] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-05-24T15:50:11.454-04:00  INFO 6368 --- [safetynet] [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-05-24T15:50:11.456-04:00  INFO 6368 --- [safetynet] [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2024-05-24T15:50:11.541-04:00  INFO 6368 --- [safetynet] [http-nio-8080-exec-4] c.o.s.controller.SafetyNetController     : POST /medicalRecord called
+2024-05-24T15:50:11.543-04:00 ERROR 6368 --- [safetynet] [http-nio-8080-exec-4] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Handler dispatch failed: java.lang.Error: Unresolved compilation problem: 
+	This method must return a result of type List<MedicalRecord>
+] with root cause
+
+java.lang.Error: Unresolved compilation problem: 
+	This method must return a result of type List<MedicalRecord>
+
+	at com.openclassrooms.safetynet.service.SafetyNetService.createMedicalRecord(SafetyNetService.java:146) ~[classes/:na]
+	at com.openclassrooms.safetynet.controller.SafetyNetController.createMedicalRecord(SafetyNetController.java:116) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255) ~[spring-web-6.1.6.jar:6.1.6]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188) ~[spring-web-6.1.6.jar:6.1.6]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.1.6.jar:6.1.6]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926) ~[spring-webmvc-6.1.6.jar:6.1.6]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831) ~[spring-webmvc-6.1.6.jar:6.1.6]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.1.6.jar:6.1.6]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089) ~[spring-webmvc-6.1.6.jar:6.1.6]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.1.6.jar:6.1.6]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.1.6.jar:6.1.6]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914) ~[spring-webmvc-6.1.6.jar:6.1.6]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590) ~[tomcat-embed-core-10.1.20.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.1.6.jar:6.1.6]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.20.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:206) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.20.jar:10.1.20]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.1.6.jar:6.1.6]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.6.jar:6.1.6]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.1.6.jar:6.1.6]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.6.jar:6.1.6]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.1.6.jar:6.1.6]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.6.jar:6.1.6]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1736) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at java.base/java.lang.Thread.run(Thread.java:840) ~[na:na]
+
+2024-05-24T15:50:56.563-04:00  INFO 6368 --- [safetynet] [RMI TCP Connection(10)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2024-05-24T15:50:58.268-04:00  INFO 30212 --- [safetynet] [main] c.o.safetynet.SafetynetApplication       : Starting SafetynetApplication using Java 17.0.10 with PID 30212 (C:\SpringInit\safetynet\safetynet\target\classes started by karun in C:\SpringInit\safetynet\safetynet)
+2024-05-24T15:50:58.269-04:00 DEBUG 30212 --- [safetynet] [main] c.o.safetynet.SafetynetApplication       : Running with Spring Boot v3.2.5, Spring v6.1.6
+2024-05-24T15:50:58.270-04:00  INFO 30212 --- [safetynet] [main] c.o.safetynet.SafetynetApplication       : No active profile set, falling back to 1 default profile: "default"
+2024-05-24T15:50:58.838-04:00  INFO 30212 --- [safetynet] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-05-24T15:50:58.849-04:00  INFO 30212 --- [safetynet] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-05-24T15:50:58.849-04:00  INFO 30212 --- [safetynet] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-05-24T15:50:58.890-04:00  INFO 30212 --- [safetynet] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-05-24T15:50:58.890-04:00  INFO 30212 --- [safetynet] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 588 ms
+2024-05-24T15:50:59.180-04:00  INFO 30212 --- [safetynet] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-05-24T15:50:59.187-04:00  INFO 30212 --- [safetynet] [main] c.o.safetynet.SafetynetApplication       : Started SafetynetApplication in 1.244 seconds (process running for 1.747)
+2024-05-24T15:51:04.703-04:00  INFO 30212 --- [safetynet] [http-nio-8080-exec-4] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-05-24T15:51:04.703-04:00  INFO 30212 --- [safetynet] [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-05-24T15:51:04.704-04:00  INFO 30212 --- [safetynet] [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-05-24T15:51:04.784-04:00  INFO 30212 --- [safetynet] [http-nio-8080-exec-4] c.o.s.controller.SafetyNetController     : POST /medicalRecord called
+2024-05-24T15:51:04.785-04:00 DEBUG 30212 --- [safetynet] [http-nio-8080-exec-4] c.o.safetynet.service.SafetyNetService   : createMedicalRecord called with  with firstname:Sanjana and Last name: Karuna
+2024-05-24T15:51:04.786-04:00 DEBUG 30212 --- [safetynet] [http-nio-8080-exec-4] c.o.safetynet.service.SafetyNetService   : createMedicalRecord called with Person: Sanjana
+2024-05-24T15:51:09.894-04:00  INFO 30212 --- [safetynet] [http-nio-8080-exec-1] c.o.s.controller.SafetyNetController     : POST /medicalRecord called
+2024-05-24T15:51:09.894-04:00 DEBUG 30212 --- [safetynet] [http-nio-8080-exec-1] c.o.safetynet.service.SafetyNetService   : createMedicalRecord called with  with firstname:Sanjana and Last name: 
+2024-05-24T15:51:09.894-04:00 ERROR 30212 --- [safetynet] [http-nio-8080-exec-1] c.o.safetynet.service.SafetyNetService   : medicalRecords is called with first name or last name as empty
+2024-05-24T15:52:35.890-04:00  INFO 30212 --- [safetynet] [http-nio-8080-exec-3] c.o.s.controller.SafetyNetController     : POST /medicalRecord called
+2024-05-24T15:52:35.890-04:00 DEBUG 30212 --- [safetynet] [http-nio-8080-exec-3] c.o.safetynet.service.SafetyNetService   : createMedicalRecord called with  with firstname:null and Last name: null
+2024-05-24T15:52:35.891-04:00 ERROR 30212 --- [safetynet] [http-nio-8080-exec-3] c.o.safetynet.service.SafetyNetService   : medicalRecords is called with first name or last name as null
+2024-05-24T15:59:07.813-04:00  INFO 30212 --- [safetynet] [RMI TCP Connection(16)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2024-05-24T15:59:09.296-04:00  INFO 21372 --- [safetynet] [main] c.o.safetynet.SafetynetApplication       : Starting SafetynetApplication using Java 17.0.10 with PID 21372 (C:\SpringInit\safetynet\safetynet\target\classes started by karun in C:\SpringInit\safetynet\safetynet)
+2024-05-24T15:59:09.298-04:00 DEBUG 21372 --- [safetynet] [main] c.o.safetynet.SafetynetApplication       : Running with Spring Boot v3.2.5, Spring v6.1.6
+2024-05-24T15:59:09.298-04:00  INFO 21372 --- [safetynet] [main] c.o.safetynet.SafetynetApplication       : No active profile set, falling back to 1 default profile: "default"
+2024-05-24T15:59:09.849-04:00  INFO 21372 --- [safetynet] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-05-24T15:59:09.859-04:00  INFO 21372 --- [safetynet] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-05-24T15:59:09.859-04:00  INFO 21372 --- [safetynet] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-05-24T15:59:09.902-04:00  INFO 21372 --- [safetynet] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-05-24T15:59:09.903-04:00  INFO 21372 --- [safetynet] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 575 ms
+2024-05-24T15:59:10.175-04:00  INFO 21372 --- [safetynet] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-05-24T15:59:10.182-04:00  INFO 21372 --- [safetynet] [main] c.o.safetynet.SafetynetApplication       : Started SafetynetApplication in 1.192 seconds (process running for 1.679)
+2024-05-24T15:59:14.285-04:00  INFO 21372 --- [safetynet] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-05-24T15:59:14.285-04:00  INFO 21372 --- [safetynet] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-05-24T15:59:14.286-04:00  INFO 21372 --- [safetynet] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2024-05-24T15:59:14.361-04:00  INFO 21372 --- [safetynet] [http-nio-8080-exec-1] c.o.s.controller.SafetyNetController     : POST /medicalRecord called
+2024-05-24T15:59:14.362-04:00 DEBUG 21372 --- [safetynet] [http-nio-8080-exec-1] c.o.safetynet.service.SafetyNetService   : createMedicalRecord called with  with firstname:null and Last name: null
+2024-05-24T15:59:14.364-04:00 ERROR 21372 --- [safetynet] [http-nio-8080-exec-1] c.o.safetynet.service.SafetyNetService   : medicalRecords is called with first name or last name as null
+2024-05-24T15:59:35.791-04:00  INFO 21372 --- [safetynet] [http-nio-8080-exec-3] c.o.s.controller.SafetyNetController     : POST /medicalRecord called
+2024-05-24T15:59:35.792-04:00 DEBUG 21372 --- [safetynet] [http-nio-8080-exec-3] c.o.safetynet.service.SafetyNetService   : createMedicalRecord called with  with firstname:Sanjana and Last name: Karuna
+2024-05-24T15:59:35.792-04:00 DEBUG 21372 --- [safetynet] [http-nio-8080-exec-3] c.o.safetynet.service.SafetyNetService   : createMedicalRecord called with Person: Sanjana
+2024-05-24T15:59:42.369-04:00  INFO 21372 --- [safetynet] [http-nio-8080-exec-4] c.o.s.controller.SafetyNetController     : POST /medicalRecord called
+2024-05-24T15:59:42.369-04:00 DEBUG 21372 --- [safetynet] [http-nio-8080-exec-4] c.o.safetynet.service.SafetyNetService   : createMedicalRecord called with  with firstname: and Last name: Karuna
+2024-05-24T15:59:42.369-04:00 ERROR 21372 --- [safetynet] [http-nio-8080-exec-4] c.o.safetynet.service.SafetyNetService   : medicalRecords is called with first name or last name as empty
+2024-05-24T16:04:00.236-04:00  INFO 21372 --- [safetynet] [RMI TCP Connection(14)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2024-05-24T16:04:01.917-04:00  INFO 28544 --- [safetynet] [main] c.o.safetynet.SafetynetApplication       : Starting SafetynetApplication using Java 17.0.10 with PID 28544 (C:\SpringInit\safetynet\safetynet\target\classes started by karun in C:\SpringInit\safetynet\safetynet)
+2024-05-24T16:04:01.919-04:00 DEBUG 28544 --- [safetynet] [main] c.o.safetynet.SafetynetApplication       : Running with Spring Boot v3.2.5, Spring v6.1.6
+2024-05-24T16:04:01.920-04:00  INFO 28544 --- [safetynet] [main] c.o.safetynet.SafetynetApplication       : No active profile set, falling back to 1 default profile: "default"
+2024-05-24T16:04:02.494-04:00  INFO 28544 --- [safetynet] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-05-24T16:04:02.503-04:00  INFO 28544 --- [safetynet] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-05-24T16:04:02.503-04:00  INFO 28544 --- [safetynet] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-05-24T16:04:02.543-04:00  INFO 28544 --- [safetynet] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-05-24T16:04:02.543-04:00  INFO 28544 --- [safetynet] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 590 ms
+2024-05-24T16:04:02.822-04:00  INFO 28544 --- [safetynet] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-05-24T16:04:02.830-04:00  INFO 28544 --- [safetynet] [main] c.o.safetynet.SafetynetApplication       : Started SafetynetApplication in 1.22 seconds (process running for 1.707)
+2024-05-24T16:04:16.820-04:00  INFO 8020 --- [safetynet] [main] c.o.safetynet.SafetynetApplicationTests  : Starting SafetynetApplicationTests using Java 17.0.10 with PID 8020 (started by karun in C:\SpringInit\safetynet\safetynet)
+2024-05-24T16:04:16.821-04:00 DEBUG 8020 --- [safetynet] [main] c.o.safetynet.SafetynetApplicationTests  : Running with Spring Boot v3.2.5, Spring v6.1.6
+2024-05-24T16:04:16.822-04:00  INFO 8020 --- [safetynet] [main] c.o.safetynet.SafetynetApplicationTests  : No active profile set, falling back to 1 default profile: "default"
+2024-05-24T16:04:18.290-04:00  INFO 8020 --- [safetynet] [main] c.o.safetynet.SafetynetApplicationTests  : Started SafetynetApplicationTests in 1.908 seconds (process running for 3.772)
+2024-05-24T16:04:19.462-04:00 DEBUG 8020 --- [safetynet] [main] c.o.safetynet.service.SafetyNetService   : getPeopleByName called with firstname:Who and Last name: amI
+2024-05-24T16:04:19.479-04:00 DEBUG 8020 --- [safetynet] [main] c.o.safetynet.service.SafetyNetService   : createMedicalRecord called with  with firstname:John and Last name: Boyd
+2024-05-24T16:04:19.480-04:00 DEBUG 8020 --- [safetynet] [main] c.o.safetynet.service.SafetyNetService   : createMedicalRecord called with Person: John
+2024-05-24T16:04:19.486-04:00 DEBUG 8020 --- [safetynet] [main] c.o.safetynet.service.SafetyNetService   : getChildByAddress called with address: 1509 Culver St
+2024-05-24T16:04:19.497-04:00 DEBUG 8020 --- [safetynet] [main] c.o.safetynet.service.SafetyNetService   : deleteMedicalRecord called  with firstname:test and Last name: user
+2024-05-24T16:04:19.503-04:00 DEBUG 8020 --- [safetynet] [main] c.o.safetynet.service.SafetyNetService   : createMedicalRecord called with  with firstname:karuna and Last name: last
+2024-05-24T16:04:19.503-04:00 DEBUG 8020 --- [safetynet] [main] c.o.safetynet.service.SafetyNetService   : createMedicalRecord called with Person: karuna
+2024-05-24T16:04:19.509-04:00 DEBUG 8020 --- [safetynet] [main] c.o.safetynet.service.SafetyNetService   : deleteFireStation called with station number: 1
+2024-05-24T16:04:19.514-04:00 DEBUG 8020 --- [safetynet] [main] c.o.safetynet.service.SafetyNetService   : deleteMedicalRecord called  with firstname:Brian and Last name: Stelzer
+2024-05-24T16:04:19.519-04:00 DEBUG 8020 --- [safetynet] [main] c.o.safetynet.service.SafetyNetService   : getPhoneByStationId called with station number: 1
+2024-05-24T16:04:19.523-04:00 DEBUG 8020 --- [safetynet] [main] c.o.safetynet.service.SafetyNetService   : getPeopleByStationIds called with Stationnumbers: [Ljava.lang.Object;@5d3b0f8a
+2024-05-24T16:04:19.529-04:00 DEBUG 8020 --- [safetynet] [main] c.o.safetynet.service.SafetyNetService   : getEmailByCity called with address: Culver
+2024-05-24T16:04:19.534-04:00 DEBUG 8020 --- [safetynet] [main] c.o.safetynet.service.SafetyNetService   : getEmailByCity called with address: city
+2024-05-24T16:04:19.538-04:00 DEBUG 8020 --- [safetynet] [main] c.o.safetynet.service.SafetyNetService   : updateMedicalRecord called with Person: John
+2024-05-24T16:04:19.544-04:00 DEBUG 8020 --- [safetynet] [main] c.o.safetynet.service.SafetyNetService   : getChildByAddress called with address: dummy
+2024-05-24T16:04:19.552-04:00 DEBUG 8020 --- [safetynet] [main] c.o.safetynet.service.SafetyNetService   : getPeopleByStationId called with station number: 10
+2024-05-24T16:04:19.552-04:00 DEBUG 8020 --- [safetynet] [main] c.o.safetynet.service.SafetyNetService   : getAddressByStationNumber responded with[]
+2024-05-24T16:04:19.557-04:00 DEBUG 8020 --- [safetynet] [main] c.o.safetynet.service.SafetyNetService   : deletePerson called  with firstname:Brian and Last name: Stelzer
+2024-05-24T16:04:19.566-04:00 DEBUG 8020 --- [safetynet] [main] c.o.safetynet.service.SafetyNetService   : getPeopleByAddress called with address: 1509 Culver St
+2024-05-24T16:04:19.572-04:00 DEBUG 8020 --- [safetynet] [main] c.o.safetynet.service.SafetyNetService   : updatePerson called with  with firstname:who and Last name: amI
+2024-05-24T16:04:19.572-04:00  WARN 8020 --- [safetynet] [main] c.o.safetynet.service.SafetyNetService   : deletePerson is called with non existing person
+2024-05-24T16:04:19.577-04:00 DEBUG 8020 --- [safetynet] [main] c.o.safetynet.service.SafetyNetService   : getPeopleByAddress called with address: dummy street
+2024-05-24T16:04:19.582-04:00 DEBUG 8020 --- [safetynet] [main] c.o.safetynet.service.SafetyNetService   : createPerson called with  with firstname:John and Last name: Boyd
+2024-05-24T16:04:19.583-04:00  WARN 8020 --- [safetynet] [main] c.o.safetynet.service.SafetyNetService   : createPerson is called with existing person
+2024-05-24T16:04:19.586-04:00 DEBUG 8020 --- [safetynet] [main] c.o.safetynet.service.SafetyNetService   : deleteFireStation called with station number: 11
+2024-05-24T16:04:19.591-04:00 DEBUG 8020 --- [safetynet] [main] c.o.safetynet.service.SafetyNetService   : getPeopleByName called with firstname:Brian and Last name: Stelzer
+2024-05-24T16:04:19.596-04:00 DEBUG 8020 --- [safetynet] [main] c.o.safetynet.service.SafetyNetService   : deletePerson called  with firstname:Kye and Last name: Gal
+2024-05-24T16:04:19.597-04:00  WARN 8020 --- [safetynet] [main] c.o.safetynet.service.SafetyNetService   : deletePerson is called with non existing person
+2024-05-24T16:04:19.601-04:00 DEBUG 8020 --- [safetynet] [main] c.o.safetynet.service.SafetyNetService   : getPeopleByStationIds called with Stationnumbers: [Ljava.lang.Object;@50dfceff
+2024-05-24T16:04:19.606-04:00 DEBUG 8020 --- [safetynet] [main] c.o.safetynet.service.SafetyNetService   : updateFireStation called with station number: 11
+2024-05-24T16:04:19.610-04:00 DEBUG 8020 --- [safetynet] [main] c.o.safetynet.service.SafetyNetService   : createFireStation called with station number: 1
+2024-05-24T16:04:19.615-04:00 DEBUG 8020 --- [safetynet] [main] c.o.safetynet.service.SafetyNetService   : createPerson called with  with firstname:karuna and Last name: last
+2024-05-24T16:04:19.619-04:00 DEBUG 8020 --- [safetynet] [main] c.o.safetynet.service.SafetyNetService   : createFireStation called with station number: 5
+2024-05-24T16:04:19.625-04:00 DEBUG 8020 --- [safetynet] [main] c.o.safetynet.service.SafetyNetService   : getPhoneByStationId called with station number: 10
+2024-05-24T16:04:19.629-04:00 DEBUG 8020 --- [safetynet] [main] c.o.safetynet.service.SafetyNetService   : getPeopleByStationId called with station number: 1
+2024-05-24T16:04:19.630-04:00 DEBUG 8020 --- [safetynet] [main] c.o.safetynet.service.SafetyNetService   : getAddressByStationNumber responded with[908 73rd St, 947 E. Rose Dr, 644 Gershwin Cir]
+2024-05-24T16:04:19.634-04:00 DEBUG 8020 --- [safetynet] [main] c.o.safetynet.service.SafetyNetService   : updatePerson called with  with firstname:John and Last name: Boyd
+2024-05-24T16:04:19.637-04:00 DEBUG 8020 --- [safetynet] [main] c.o.safetynet.service.SafetyNetService   : updateFireStation called with station number: 1
+2024-05-24T16:04:19.641-04:00 DEBUG 8020 --- [safetynet] [main] c.o.safetynet.service.SafetyNetService   : updateMedicalRecord called with Person: user
+2024-05-24T16:04:24.923-04:00  INFO 28544 --- [safetynet] [RMI TCP Connection(8)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2024-05-24T16:04:26.790-04:00  INFO 35788 --- [safetynet] [main] c.o.safetynet.SafetynetApplication       : Starting SafetynetApplication using Java 17.0.10 with PID 35788 (C:\SpringInit\safetynet\safetynet\target\classes started by karun in C:\SpringInit\safetynet\safetynet)
+2024-05-24T16:04:26.792-04:00 DEBUG 35788 --- [safetynet] [main] c.o.safetynet.SafetynetApplication       : Running with Spring Boot v3.2.5, Spring v6.1.6
+2024-05-24T16:04:26.793-04:00  INFO 35788 --- [safetynet] [main] c.o.safetynet.SafetynetApplication       : No active profile set, falling back to 1 default profile: "default"
+2024-05-24T16:04:27.379-04:00  INFO 35788 --- [safetynet] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-05-24T16:04:27.390-04:00  INFO 35788 --- [safetynet] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-05-24T16:04:27.391-04:00  INFO 35788 --- [safetynet] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-05-24T16:04:27.437-04:00  INFO 35788 --- [safetynet] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-05-24T16:04:27.437-04:00  INFO 35788 --- [safetynet] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 613 ms
+2024-05-24T16:04:27.753-04:00  INFO 35788 --- [safetynet] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-05-24T16:04:27.762-04:00  INFO 35788 --- [safetynet] [main] c.o.safetynet.SafetynetApplication       : Started SafetynetApplication in 1.272 seconds (process running for 1.803)
+2024-05-24T16:04:54.382-04:00  INFO 35788 --- [safetynet] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-05-24T16:04:54.382-04:00  INFO 35788 --- [safetynet] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-05-24T16:04:54.383-04:00  INFO 35788 --- [safetynet] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-05-24T16:04:54.495-04:00  INFO 35788 --- [safetynet] [http-nio-8080-exec-1] c.o.s.controller.SafetyNetController     : POST /firestation called
+2024-05-24T16:04:54.496-04:00 DEBUG 35788 --- [safetynet] [http-nio-8080-exec-1] c.o.safetynet.service.SafetyNetService   : createFireStation called with station number: 5
+2024-05-24T16:04:59.740-04:00  INFO 35788 --- [safetynet] [http-nio-8080-exec-3] c.o.s.controller.SafetyNetController     : POST /firestation called
+2024-05-24T16:04:59.740-04:00 DEBUG 35788 --- [safetynet] [http-nio-8080-exec-3] c.o.safetynet.service.SafetyNetService   : createFireStation called with station number: 
+2024-05-24T16:04:59.740-04:00 ERROR 35788 --- [safetynet] [http-nio-8080-exec-3] c.o.safetynet.service.SafetyNetService   : createFireStation is called with station number or address as empty
+2024-05-24T16:05:15.048-04:00  INFO 35788 --- [safetynet] [http-nio-8080-exec-4] c.o.s.controller.SafetyNetController     : POST /firestation called
+2024-05-24T16:05:15.048-04:00 DEBUG 35788 --- [safetynet] [http-nio-8080-exec-4] c.o.safetynet.service.SafetyNetService   : createFireStation called with station number: null
+2024-05-24T16:05:15.048-04:00 ERROR 35788 --- [safetynet] [http-nio-8080-exec-4] c.o.safetynet.service.SafetyNetService   : createFireStation is called with station number or address as null
+2024-05-24T16:05:34.244-04:00  INFO 35788 --- [safetynet] [http-nio-8080-exec-5] c.o.s.controller.SafetyNetController     : POST /firestation called
+2024-05-24T16:05:34.244-04:00 DEBUG 35788 --- [safetynet] [http-nio-8080-exec-5] c.o.safetynet.service.SafetyNetService   : createFireStation called with station number: 5
+2024-05-24T16:05:34.247-04:00 ERROR 35788 --- [safetynet] [http-nio-8080-exec-5] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.NullPointerException: Cannot invoke "java.util.Set.stream()" because "this.addresses" is null] with root cause
+
+java.lang.NullPointerException: Cannot invoke "java.util.Set.stream()" because "this.addresses" is null
+	at com.openclassrooms.safetynet.domain.FireStation.getAddresses(FireStation.java:39) ~[classes/:na]
+	at com.openclassrooms.safetynet.service.SafetyNetService.createFireStation(SafetyNetService.java:201) ~[classes/:na]
+	at com.openclassrooms.safetynet.controller.SafetyNetController.createFireStation(SafetyNetController.java:139) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255) ~[spring-web-6.1.6.jar:6.1.6]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188) ~[spring-web-6.1.6.jar:6.1.6]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.1.6.jar:6.1.6]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926) ~[spring-webmvc-6.1.6.jar:6.1.6]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831) ~[spring-webmvc-6.1.6.jar:6.1.6]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.1.6.jar:6.1.6]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089) ~[spring-webmvc-6.1.6.jar:6.1.6]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.1.6.jar:6.1.6]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.1.6.jar:6.1.6]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914) ~[spring-webmvc-6.1.6.jar:6.1.6]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590) ~[tomcat-embed-core-10.1.20.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.1.6.jar:6.1.6]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.20.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:206) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.20.jar:10.1.20]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.1.6.jar:6.1.6]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.6.jar:6.1.6]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.1.6.jar:6.1.6]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.6.jar:6.1.6]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.1.6.jar:6.1.6]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.6.jar:6.1.6]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1736) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.20.jar:10.1.20]
+	at java.base/java.lang.Thread.run(Thread.java:840) ~[na:na]
+
+2024-05-24T16:10:37.374-04:00  INFO 35788 --- [safetynet] [RMI TCP Connection(14)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2024-05-24T16:10:39.065-04:00  INFO 24164 --- [safetynet] [main] c.o.safetynet.SafetynetApplication       : Starting SafetynetApplication using Java 17.0.10 with PID 24164 (C:\SpringInit\safetynet\safetynet\target\classes started by karun in C:\SpringInit\safetynet\safetynet)
+2024-05-24T16:10:39.067-04:00 DEBUG 24164 --- [safetynet] [main] c.o.safetynet.SafetynetApplication       : Running with Spring Boot v3.2.5, Spring v6.1.6
+2024-05-24T16:10:39.067-04:00  INFO 24164 --- [safetynet] [main] c.o.safetynet.SafetynetApplication       : No active profile set, falling back to 1 default profile: "default"
+2024-05-24T16:10:39.633-04:00  INFO 24164 --- [safetynet] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-05-24T16:10:39.642-04:00  INFO 24164 --- [safetynet] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-05-24T16:10:39.642-04:00  INFO 24164 --- [safetynet] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-05-24T16:10:39.683-04:00  INFO 24164 --- [safetynet] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-05-24T16:10:39.683-04:00  INFO 24164 --- [safetynet] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 584 ms
+2024-05-24T16:10:39.957-04:00  INFO 24164 --- [safetynet] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-05-24T16:10:39.966-04:00  INFO 24164 --- [safetynet] [main] c.o.safetynet.SafetynetApplication       : Started SafetynetApplication in 1.212 seconds (process running for 1.711)
+2024-05-24T16:10:43.954-04:00  INFO 24164 --- [safetynet] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-05-24T16:10:43.954-04:00  INFO 24164 --- [safetynet] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-05-24T16:10:43.955-04:00  INFO 24164 --- [safetynet] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-05-24T16:10:44.043-04:00  INFO 24164 --- [safetynet] [http-nio-8080-exec-1] c.o.s.controller.SafetyNetController     : POST /firestation called
+2024-05-24T16:10:44.043-04:00 DEBUG 24164 --- [safetynet] [http-nio-8080-exec-1] c.o.safetynet.service.SafetyNetService   : createFireStation called with station number: 5
+2024-05-24T16:10:44.045-04:00 ERROR 24164 --- [safetynet] [http-nio-8080-exec-1] c.o.safetynet.service.SafetyNetService   : createFireStation is called with station number or address as null
+2024-05-24T16:11:03.343-04:00  INFO 24164 --- [safetynet] [http-nio-8080-exec-3] c.o.s.controller.SafetyNetController     : POST /firestation called
+2024-05-24T16:11:03.344-04:00 DEBUG 24164 --- [safetynet] [http-nio-8080-exec-3] c.o.safetynet.service.SafetyNetService   : createFireStation called with station number: 5
+2024-05-24T16:11:12.033-04:00  INFO 24164 --- [safetynet] [http-nio-8080-exec-4] c.o.s.controller.SafetyNetController     : POST /firestation called
+2024-05-24T16:11:12.033-04:00 DEBUG 24164 --- [safetynet] [http-nio-8080-exec-4] c.o.safetynet.service.SafetyNetService   : createFireStation called with station number: 5
+2024-05-24T16:15:02.581-04:00  INFO 24164 --- [safetynet] [RMI TCP Connection(15)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2024-05-24T16:15:04.258-04:00  INFO 30868 --- [safetynet] [main] c.o.safetynet.SafetynetApplication       : Starting SafetynetApplication using Java 17.0.10 with PID 30868 (C:\SpringInit\safetynet\safetynet\target\classes started by karun in C:\SpringInit\safetynet\safetynet)
+2024-05-24T16:15:04.260-04:00 DEBUG 30868 --- [safetynet] [main] c.o.safetynet.SafetynetApplication       : Running with Spring Boot v3.2.5, Spring v6.1.6
+2024-05-24T16:15:04.260-04:00  INFO 30868 --- [safetynet] [main] c.o.safetynet.SafetynetApplication       : No active profile set, falling back to 1 default profile: "default"
+2024-05-24T16:15:04.810-04:00  INFO 30868 --- [safetynet] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-05-24T16:15:04.819-04:00  INFO 30868 --- [safetynet] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-05-24T16:15:04.819-04:00  INFO 30868 --- [safetynet] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-05-24T16:15:04.856-04:00  INFO 30868 --- [safetynet] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-05-24T16:15:04.857-04:00  INFO 30868 --- [safetynet] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 566 ms
+2024-05-24T16:15:05.129-04:00  INFO 30868 --- [safetynet] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-05-24T16:15:05.136-04:00  INFO 30868 --- [safetynet] [main] c.o.safetynet.SafetynetApplication       : Started SafetynetApplication in 1.173 seconds (process running for 1.663)
+2024-05-24T16:15:12.728-04:00  INFO 30868 --- [safetynet] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-05-24T16:15:12.729-04:00  INFO 30868 --- [safetynet] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-05-24T16:15:12.730-04:00  INFO 30868 --- [safetynet] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-05-24T16:15:12.834-04:00  INFO 30868 --- [safetynet] [http-nio-8080-exec-1] c.o.s.controller.SafetyNetController     : PUT /firestation called
+2024-05-24T16:15:12.834-04:00 DEBUG 30868 --- [safetynet] [http-nio-8080-exec-1] c.o.safetynet.service.SafetyNetService   : updateFireStation called with station number: 5
+2024-05-24T16:15:12.834-04:00  WARN 30868 --- [safetynet] [http-nio-8080-exec-1] c.o.safetynet.service.SafetyNetService   : updateFireStation is called with  non existing record
+2024-05-24T16:15:19.436-04:00  INFO 30868 --- [safetynet] [http-nio-8080-exec-4] c.o.s.controller.SafetyNetController     : DELETE /firestation called
+2024-05-24T16:15:19.436-04:00 DEBUG 30868 --- [safetynet] [http-nio-8080-exec-4] c.o.safetynet.service.SafetyNetService   : deleteFireStation called with station number: 5
+2024-05-24T16:15:19.436-04:00  WARN 30868 --- [safetynet] [http-nio-8080-exec-4] c.o.safetynet.service.SafetyNetService   : deleteFireStation is called with  non existing record
+2024-05-24T16:15:28.889-04:00  INFO 30868 --- [safetynet] [http-nio-8080-exec-5] c.o.s.controller.SafetyNetController     : DELETE /medicalRecord called
+2024-05-24T16:15:28.889-04:00 DEBUG 30868 --- [safetynet] [http-nio-8080-exec-5] c.o.safetynet.service.SafetyNetService   : deleteMedicalRecord called  with firstname:Sanjana and Last name: karuna
+2024-05-24T16:15:28.892-04:00  WARN 30868 --- [safetynet] [http-nio-8080-exec-5] c.o.safetynet.service.SafetyNetService   : deleteMedicalRecord is called with non existing record
+2024-05-24T16:15:36.137-04:00  INFO 30868 --- [safetynet] [http-nio-8080-exec-3] c.o.s.controller.SafetyNetController     : PUT /medicalRecord called
+2024-05-24T16:15:36.138-04:00 DEBUG 30868 --- [safetynet] [http-nio-8080-exec-3] c.o.safetynet.service.SafetyNetService   : updateMedicalRecord called with Person: Sanjana
+2024-05-24T16:15:36.138-04:00  WARN 30868 --- [safetynet] [http-nio-8080-exec-3] c.o.safetynet.service.SafetyNetService   : updateMedicalRecord is called with non existing record
+2024-05-24T16:17:51.407-04:00  INFO 30868 --- [safetynet] [RMI TCP Connection(13)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2024-05-24T16:17:53.082-04:00  INFO 14332 --- [safetynet] [main] c.o.safetynet.SafetynetApplication       : Starting SafetynetApplication using Java 17.0.10 with PID 14332 (C:\SpringInit\safetynet\safetynet\target\classes started by karun in C:\SpringInit\safetynet\safetynet)
+2024-05-24T16:17:53.083-04:00 DEBUG 14332 --- [safetynet] [main] c.o.safetynet.SafetynetApplication       : Running with Spring Boot v3.2.5, Spring v6.1.6
+2024-05-24T16:17:53.084-04:00  INFO 14332 --- [safetynet] [main] c.o.safetynet.SafetynetApplication       : No active profile set, falling back to 1 default profile: "default"
+2024-05-24T16:17:53.635-04:00  INFO 14332 --- [safetynet] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-05-24T16:17:53.645-04:00  INFO 14332 --- [safetynet] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-05-24T16:17:53.645-04:00  INFO 14332 --- [safetynet] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-05-24T16:17:53.684-04:00  INFO 14332 --- [safetynet] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-05-24T16:17:53.685-04:00  INFO 14332 --- [safetynet] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 569 ms
+2024-05-24T16:17:54.709-04:00  INFO 14332 --- [safetynet] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-05-24T16:17:54.716-04:00  INFO 14332 --- [safetynet] [main] c.o.safetynet.SafetynetApplication       : Started SafetynetApplication in 1.934 seconds (process running for 2.429)
+2024-05-24T16:17:59.128-04:00  INFO 14332 --- [safetynet] [http-nio-8080-exec-4] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-05-24T16:17:59.129-04:00  INFO 14332 --- [safetynet] [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-05-24T16:17:59.130-04:00  INFO 14332 --- [safetynet] [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-05-24T16:17:59.210-04:00  INFO 14332 --- [safetynet] [http-nio-8080-exec-4] c.o.s.controller.SafetyNetController     : PUT /medicalRecord called
+2024-05-24T16:17:59.211-04:00 DEBUG 14332 --- [safetynet] [http-nio-8080-exec-4] c.o.safetynet.service.SafetyNetService   : updateMedicalRecord called with  with firstname:Sanjana and Last name: Karuna
+2024-05-24T16:17:59.212-04:00  WARN 14332 --- [safetynet] [http-nio-8080-exec-4] c.o.safetynet.service.SafetyNetService   : updateMedicalRecord is called with non existing record
+2024-05-24T16:18:14.923-04:00  INFO 14332 --- [safetynet] [http-nio-8080-exec-5] c.o.s.controller.SafetyNetController     : POST /medicalRecord called
+2024-05-24T16:18:14.923-04:00 DEBUG 14332 --- [safetynet] [http-nio-8080-exec-5] c.o.safetynet.service.SafetyNetService   : createMedicalRecord called with  with firstname: and Last name: Karuna
+2024-05-24T16:18:14.923-04:00 ERROR 14332 --- [safetynet] [http-nio-8080-exec-5] c.o.safetynet.service.SafetyNetService   : medicalRecords is called with first name or last name as empty
+2024-05-24T16:32:42.475-04:00  INFO 14332 --- [safetynet] [http-nio-8080-exec-3] c.o.s.controller.SafetyNetController     : DELETE /firestation called
+2024-05-24T16:32:42.476-04:00 DEBUG 14332 --- [safetynet] [http-nio-8080-exec-3] c.o.safetynet.service.SafetyNetService   : deleteFireStation called with station number: 5
+2024-05-24T16:32:42.476-04:00  WARN 14332 --- [safetynet] [http-nio-8080-exec-3] c.o.safetynet.service.SafetyNetService   : deleteFireStation is called with  non existing record
+2024-05-24T16:32:48.165-04:00  INFO 14332 --- [safetynet] [http-nio-8080-exec-8] c.o.s.controller.SafetyNetController     : DELETE /firestation called
+2024-05-24T16:32:48.166-04:00 DEBUG 14332 --- [safetynet] [http-nio-8080-exec-8] c.o.safetynet.service.SafetyNetService   : deleteFireStation called with station number: 4
+2024-05-24T16:33:07.761-04:00  INFO 14332 --- [safetynet] [http-nio-8080-exec-7] c.o.s.controller.SafetyNetController     : POST /person called
+2024-05-24T16:33:07.761-04:00 DEBUG 14332 --- [safetynet] [http-nio-8080-exec-7] c.o.safetynet.service.SafetyNetService   : createPerson called with  with firstname:Sanjana and Last name: karuna
+2024-05-24T16:33:13.149-04:00  INFO 14332 --- [safetynet] [http-nio-8080-exec-9] c.o.s.controller.SafetyNetController     : DELETE /person called
+2024-05-24T16:33:13.149-04:00 DEBUG 14332 --- [safetynet] [http-nio-8080-exec-9] c.o.safetynet.service.SafetyNetService   : deletePerson called  with firstname:Sanjana and Last name: karuna
+
+2024-05-24T16:33:33.892-04:00  INFO 14332 --- [safetynet] [http-nio-8080-exec-10] c.o.s.controller.SafetyNetController     : POST /medicalRecord called
+2024-05-24T16:33:33.892-04:00 DEBUG 14332 --- [safetynet] [http-nio-8080-exec-10] c.o.safetynet.service.SafetyNetService   : createMedicalRecord called with  with firstname:Sanjana and Last name: Karuna
+2024-05-24T16:33:33.893-04:00 DEBUG 14332 --- [safetynet] [http-nio-8080-exec-10] c.o.safetynet.service.SafetyNetService   : createMedicalRecord called with Person: Sanjana
+2024-05-24T16:33:37.468-04:00  INFO 14332 --- [safetynet] [http-nio-8080-exec-1] c.o.s.controller.SafetyNetController     : DELETE /medicalRecord called
+2024-05-24T16:33:37.470-04:00 DEBUG 14332 --- [safetynet] [http-nio-8080-exec-1] c.o.safetynet.service.SafetyNetService   : deleteMedicalRecord called  with firstname:Sanjana and Last name: karuna
+2024-05-24T16:36:17.142-04:00  INFO 14332 --- [safetynet] [http-nio-8080-exec-2] c.o.s.controller.SafetyNetController     : POST /medicalRecord called
+2024-05-24T16:36:17.142-04:00 DEBUG 14332 --- [safetynet] [http-nio-8080-exec-2] c.o.safetynet.service.SafetyNetService   : createMedicalRecord called with  with firstname:Sanjana and Last name: Karuna
+2024-05-24T16:36:17.142-04:00 DEBUG 14332 --- [safetynet] [http-nio-8080-exec-2] c.o.safetynet.service.SafetyNetService   : createMedicalRecord called with Person: Sanjana
+2024-05-24T16:36:43.135-04:00  INFO 14332 --- [safetynet] [http-nio-8080-exec-6] c.o.s.controller.SafetyNetController     : POST /medicalRecord called
+2024-05-24T16:36:43.135-04:00 DEBUG 14332 --- [safetynet] [http-nio-8080-exec-6] c.o.safetynet.service.SafetyNetService   : createMedicalRecord called with  with firstname: and Last name: Karuna
+2024-05-24T16:36:43.135-04:00 ERROR 14332 --- [safetynet] [http-nio-8080-exec-6] c.o.safetynet.service.SafetyNetService   : medicalRecords is called with first name or last name as empty
+2024-05-24T16:36:57.925-04:00  INFO 14332 --- [safetynet] [http-nio-8080-exec-3] c.o.s.controller.SafetyNetController     : POST /medicalRecord called
+2024-05-24T16:36:57.926-04:00 DEBUG 14332 --- [safetynet] [http-nio-8080-exec-3] c.o.safetynet.service.SafetyNetService   : createMedicalRecord called with  with firstname:null and Last name: null
+2024-05-24T16:36:57.926-04:00 ERROR 14332 --- [safetynet] [http-nio-8080-exec-3] c.o.safetynet.service.SafetyNetService   : medicalRecords is called with first name or last name as null
+2024-05-24T16:40:55.682-04:00  INFO 14332 --- [safetynet] [RMI TCP Connection(29)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2024-05-24T16:40:58.268-04:00  INFO 31976 --- [safetynet] [main] c.o.safetynet.SafetynetApplication       : Starting SafetynetApplication using Java 17.0.10 with PID 31976 (C:\SpringInit\safetynet\safetynet\target\classes started by karun in C:\SpringInit\safetynet\safetynet)
+2024-05-24T16:40:58.269-04:00 DEBUG 31976 --- [safetynet] [main] c.o.safetynet.SafetynetApplication       : Running with Spring Boot v3.2.5, Spring v6.1.6
+2024-05-24T16:40:58.270-04:00  INFO 31976 --- [safetynet] [main] c.o.safetynet.SafetynetApplication       : No active profile set, falling back to 1 default profile: "default"
+2024-05-24T16:40:59.065-04:00  INFO 31976 --- [safetynet] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-05-24T16:40:59.081-04:00  INFO 31976 --- [safetynet] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-05-24T16:40:59.081-04:00  INFO 31976 --- [safetynet] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-05-24T16:40:59.152-04:00  INFO 31976 --- [safetynet] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-05-24T16:40:59.152-04:00  INFO 31976 --- [safetynet] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 830 ms
+2024-05-24T16:40:59.521-04:00  INFO 31976 --- [safetynet] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-05-24T16:40:59.528-04:00  INFO 31976 --- [safetynet] [main] c.o.safetynet.SafetynetApplication       : Started SafetynetApplication in 1.622 seconds (process running for 2.498)
+2024-05-24T16:41:28.024-04:00  INFO 31976 --- [safetynet] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-05-24T16:41:28.025-04:00  INFO 31976 --- [safetynet] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-05-24T16:41:28.026-04:00  INFO 31976 --- [safetynet] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-05-24T16:43:12.471-04:00  INFO 31976 --- [safetynet] [RMI TCP Connection(10)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2024-05-24T16:43:14.691-04:00  INFO 14900 --- [safetynet] [main] c.o.safetynet.SafetynetApplication       : Starting SafetynetApplication using Java 17.0.10 with PID 14900 (C:\SpringInit\safetynet\safetynet\target\classes started by karun in C:\SpringInit\safetynet\safetynet)
+2024-05-24T16:43:14.693-04:00 DEBUG 14900 --- [safetynet] [main] c.o.safetynet.SafetynetApplication       : Running with Spring Boot v3.2.5, Spring v6.1.6
+2024-05-24T16:43:14.693-04:00  INFO 14900 --- [safetynet] [main] c.o.safetynet.SafetynetApplication       : No active profile set, falling back to 1 default profile: "default"
+2024-05-24T16:43:15.675-04:00  INFO 14900 --- [safetynet] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-05-24T16:43:15.685-04:00  INFO 14900 --- [safetynet] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-05-24T16:43:15.686-04:00  INFO 14900 --- [safetynet] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-05-24T16:43:15.734-04:00  INFO 14900 --- [safetynet] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-05-24T16:43:15.735-04:00  INFO 14900 --- [safetynet] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 994 ms
+2024-05-24T16:43:17.012-04:00  INFO 14900 --- [safetynet] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 3 endpoint(s) beneath base path '/actuator'
+2024-05-24T16:43:17.156-04:00  INFO 14900 --- [safetynet] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-05-24T16:43:17.181-04:00  INFO 14900 --- [safetynet] [main] c.o.safetynet.SafetynetApplication       : Started SafetynetApplication in 2.839 seconds (process running for 3.634)
+2024-05-24T16:43:18.341-04:00  INFO 14900 --- [safetynet] [RMI TCP Connection(9)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-05-24T16:43:18.341-04:00  INFO 14900 --- [safetynet] [RMI TCP Connection(9)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-05-24T16:43:18.343-04:00  INFO 14900 --- [safetynet] [RMI TCP Connection(9)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
